@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-// import Banner from './components/Banner/Banner';
-
+import Header from './components/Header/Header';
+import CustomBar from './components/CustomBar/CustomBar';
 
 
 class App extends Component {
@@ -17,7 +17,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        
+        <Header />
+        <CustomBar />
       </div>
     );
   }
