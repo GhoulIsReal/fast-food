@@ -1,0 +1,12 @@
+#main-page-image {
+    width: 100vw;
+    height: 315px;
+    margin: 5px 0 5px 0;
+    text-align: center;
+}
+
+#main-page-image img {
+    width: 851px;
+    height: 315px;
+    border-radius: 15px;
+}
